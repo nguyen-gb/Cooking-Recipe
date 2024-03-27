@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { RecipeType } from "../../types/Recipe.type";
+
 import path from "../../constants/path";
+import { RecipeType } from "../../types/recipe.type";
 
 interface Props {
   recipe: RecipeType;
